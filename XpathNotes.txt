@@ -1,0 +1,60 @@
+
+Xpath and CSS in depth 
+
+
+Xpath 
+
+//tagName[@attribute=’value’];
+
+
+
+Concatenate in xpath
+
+//input[@name=’xyz’ and @id=’abc’];
+
+
+Starts-with 
+
+//input[starts-with(@id='xyz')]
+
+
+
+Contains
+
+//input[contains(@id='xyz')]
+
+To go to parent of an element in xpath
+
+//input[@id='identifierId']/..
+
+
+To switch to preceding sibling
+
+//input[@id='submit']/preceding-sibling::input[1]
+
+
+To switch to following sibling
+
+//input[@id='submit']/following-sibling::input[1]
+
+
+To find the descendants
+
+//ul[@id='menu-main-menu']/descendant::a
+To find the ancestor
+
+//div[@class='_2NHqR1 row']/ancestor::div
+
+
+
+CHILD and PARENT
+
+//div[@class='TW4owM']/child::div 
+
+
+
+//div[@class='TW4owM']/parent::div 
+
+
+
+

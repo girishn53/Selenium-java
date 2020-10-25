@@ -1,4 +1,5 @@
-//This program will launch naukri.com 
+//This program will launch naukri.com  
+
 //and close all the windows except main window and prints the title
 
 package seleniumCommandsPractice;
@@ -20,10 +21,14 @@ public class WindowHandles {
 
 		driver.get("https://www.naukri.com/");
 
+		
+		
 		String baseHandle = driver.getWindowHandle();
 
 		System.out.println("Parent handle is  " + baseHandle);
-
+		
+		//It returns the ordered set 
+		
 		Set<String> allHandles = driver.getWindowHandles();
 
 		for (String handle : allHandles) {
