@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="E:/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="E:/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="F:/GSON/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="E:/HTTPcodesvalidation_jars/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/HTTPcodesvalidation_jars/fluent-hc-4.5.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

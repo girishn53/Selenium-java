@@ -1,0 +1,6 @@
+//table[@class='dataTable'] -- entire table
+
+//table[@class='dataTable']/thead --table heading
+
+//table[@class='dataTable']/tbody/tr --total rows in a table
+
