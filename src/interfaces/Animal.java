@@ -1,4 +1,5 @@
 //Interface provides discipline to the system
+
 //By default all members are public static final
 
 

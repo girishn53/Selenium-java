@@ -7,18 +7,10 @@ public class Honda extends Bike{
 		 
 		 b.run();
 		 b.changeGear();
-
 	}
-
 
 	void run() {
 		System.out.println("Honda car running");
 		
 	}
-	
-	
-	
-	
-	
-
-}
+	}
