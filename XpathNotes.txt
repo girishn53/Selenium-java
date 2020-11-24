@@ -1,20 +1,13 @@
-
 Xpath in depth 
-
-
-Xpath 
 
 //tagName[@attribute=’value’];
 
 
 
 Concatenate in xpath
-
 //input[@name=’xyz’ and @id=’abc’];
 
-
 Starts-with 
-
 //input[starts-with(@id='xyz')]
 
 
