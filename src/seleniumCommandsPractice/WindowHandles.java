@@ -23,10 +23,11 @@ public class WindowHandles {
 		driver.get("https://www.naukri.com/");
 
 		
-		
+		//It will give parent window
 		String baseHandle = driver.getWindowHandle();
 
 		System.out.println("Parent handle is  " + baseHandle);
+		
 		
 		//It returns the ordered set 
 		
