@@ -29,7 +29,7 @@ public class CustomizedFunction {
 
 	int r=	getRowNumWithCellData("1,303223032088.00");
 	
-	System.out.println("---row Num is" +r);
+	System.out.println("---row Num is----" +r);
 
 	
 	}

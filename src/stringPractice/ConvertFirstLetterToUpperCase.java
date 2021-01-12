@@ -27,7 +27,7 @@ public class ConvertFirstLetterToUpperCase {
 			if (Character.isLowerCase(ch))
 
 			{
-			char c=	 Character.toUpperCase(ch);
+				char c = Character.toUpperCase(ch);
 
 				sb.append(Character.toString(c)).append(word.substring(1));
 			}
@@ -38,7 +38,7 @@ public class ConvertFirstLetterToUpperCase {
 			}
 
 			sb.append(" ");
-			
+
 			System.out.print(sb);
 
 		}

@@ -1,3 +1,5 @@
+//HashMap allows one null key and multiple null values
+
 package collections;
 
 import java.util.HashMap;

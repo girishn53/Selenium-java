@@ -14,7 +14,9 @@ Starts-with
 
 Contains
 
-//input[contains(@id='xyz')]
+//input[contains(@id,'xyz')]
+
+//input[contains(text(),'SAP M')]
 
 To go to parent of an element in xpath
 

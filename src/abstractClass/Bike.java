@@ -10,6 +10,7 @@
 //Shape class ka as such koi meaning nhi hai, ismien ek abstract draw method ho skta hai 
 //Rectangle and circle class isko extend kr k draw method ko definition de skte h 
 
+//It is not 100% oops
 package abstractClass;
 
 public abstract class Bike {

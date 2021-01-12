@@ -10,6 +10,7 @@ public class ArrayDeclaration {
 		//initiation and declaration
 		
 		int a[]={23,54,93};
+	
 		
 		
 		
@@ -17,7 +18,7 @@ public class ArrayDeclaration {
 		
 		int arr[]=new int [5];
 		
-		
+	
 
 	}
 

@@ -30,7 +30,7 @@ public class StringPalindrome {
 			System.out.println("Inout string:" + inputByUser);
 			System.out.println("Reverse String:" + reverseInput);
 	 
-	        // Checking if given string is plaindrome
+	        // Checking if given string is palindrome
 			if (inputByUser.equals(reverseInput))
 				System.out.println("Entered string is palindrome.");
 			else

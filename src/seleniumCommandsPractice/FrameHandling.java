@@ -30,6 +30,8 @@ public class FrameHandling {
 		// switching to first frame
 
 		driver.switchTo().frame("a077aa5e");
+		
+		
 
 		driver.findElement(By.xpath("//a/img[@src='Jmeter720.png']")).click();
 

@@ -1,10 +1,6 @@
 //This program will fetch data from given row and column
 
-
-
 package webtables;
-
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
