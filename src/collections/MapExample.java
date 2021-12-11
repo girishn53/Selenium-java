@@ -1,4 +1,13 @@
+//Map stores the data in key-value form 
+
+//Map interface has 3 classes 
+
+//Hashmap  linkedhashmap TreeMap
+
+//For traverse we need to convert as map into a set
+//Hashmap contains only unique keys
 //HashMap allows one null key and multiple null values
+
 
 package collections;
 

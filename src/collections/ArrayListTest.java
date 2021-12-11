@@ -1,4 +1,4 @@
-//Array list is an class which implements list interface
+//Array list is a class which implements list interface
 //It allows duplicate elements and it maintains insertion order
 
 
