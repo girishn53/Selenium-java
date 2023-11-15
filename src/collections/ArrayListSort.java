@@ -14,6 +14,8 @@ public class ArrayListSort {
 		al.add(98);
 
 		al.add(200);
+		// Max function
+		System.out.println("Max value is " + Collections.max(al));
 
 		// Sorting
 

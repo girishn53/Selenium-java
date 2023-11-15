@@ -22,11 +22,11 @@ public class ActionKeysEvent {
 		WebElement searchBox = driver.findElement(By.name("q"));
 
 		Actions act = new Actions(driver);
-		
+
 		// below code sends the text in upper case to google search box
-	
+
 		act.keyDown(searchBox, Keys.SHIFT).sendKeys("Hi Girish Signing in").keyUp(Keys.SHIFT);
-		
+
 		act.build().perform();
 	}
 }

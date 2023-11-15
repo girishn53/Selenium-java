@@ -20,19 +20,19 @@ public class Xls_Writer {
 	XSSFSheet sheet = null;
 
 	String path = "";
-	
-	FileInputStream fin=null;
-	
-	File f=null;
+
+	FileInputStream fin = null;
+
+	File f = null;
 
 	public Xls_Writer(String path) {
 
 		this.path = path;
 
-		 f = new File(path);
+		f = new File(path);
 
 		try {
-			 fin = new FileInputStream(f);
+			fin = new FileInputStream(f);
 
 			workbook = new XSSFWorkbook(fin);
 
@@ -61,10 +61,10 @@ public class Xls_Writer {
 			row = sheet.createRow(rowNum - 1);
 
 			cell = row.createCell(cellNum - 1);
-			
+
 			cell.setCellValue(data);
 		}
-		
+
 		try {
 			fin.close();
 		} catch (IOException e) {
@@ -72,20 +72,14 @@ public class Xls_Writer {
 			e.printStackTrace();
 		}
 
-		
-		FileOutputStream fout=new FileOutputStream(f);
-		
+		FileOutputStream fout = new FileOutputStream(f);
+
 		try {
 			workbook.write(fout);
 		} catch (IOException e) {
-			
+
 			e.printStackTrace();
 		}
 	}
-	
-
-	
-	
-	
 
 }

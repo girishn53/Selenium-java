@@ -2,8 +2,6 @@ Xpath in depth
 
 //tagName[@attribute=’value’];
 
-
-
 Concatenate in xpath
 //input[@name=’xyz’ and @id=’abc’];
 

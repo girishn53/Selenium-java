@@ -27,6 +27,8 @@ public class RightClick {
 		
 		WebElement e1=driver.findElement(By.id("rightClickBtn"));
 		
-		act.contextClick(e1).build().perform();
+		act.contextClick(e1)
+		.build()
+		.perform();
 		}
 }

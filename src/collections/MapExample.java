@@ -25,7 +25,7 @@ public class MapExample {
 		
 		System.out.println(map.size());
 		
-		//KeySet method returns all the keys stored in a map in set
+		//KeySet method returns all the keys stored in a map in the set
 		
 		  Set<String> keys = map.keySet();
 		  

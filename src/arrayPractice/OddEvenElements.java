@@ -20,16 +20,15 @@ public class OddEvenElements {
 
 		}
 
-		for(int j=0;j<size;j++)
-		{
-			if(arr[j]%2==0){
-				System.out.println("Even element "+arr[j]);
+		for (int j = 0; j < size; j++) {
+			if (arr[j] % 2 == 0) {
+				System.out.println("Even element " + arr[j]);
 			}
-			
+
 			else
-				System.out.println("odd element "+arr[j]);	
+				System.out.println("odd element " + arr[j]);
 		}
-		
+
 	}
 
 }

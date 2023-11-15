@@ -5,12 +5,10 @@
 
 package interfaces;
 
-public interface Animal 
-{
+public interface Animal {
 
-	public void move();
-	
-	public void run();
-	
-	
-	}
+	void move();
+
+	void run();
+
+}

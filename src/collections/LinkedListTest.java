@@ -1,5 +1,5 @@
 //Linked list uses doubly linkedlist 
-//It is fast than array list
+//It is faster than array list
 //It is used for manipulation of data
 //It is fast because less shifting of bits is required
 
