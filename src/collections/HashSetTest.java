@@ -17,6 +17,9 @@ public class HashSetTest {
 		hs.add("Girish");
 		hs.add("Ankita");
 
+		hs.add("Rishiita");
+
+
 		// Removing an element
 		hs.remove("Girish");
 		// It is used to clear a set
