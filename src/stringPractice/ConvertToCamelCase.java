@@ -29,7 +29,7 @@ public class ConvertToCamelCase {
 
 			if (!Character.isUpperCase(c)) {
 
-				sb.append(Character.toUpperCase(c)).append(word.substring(1));
+				sb.append(Character.toLowerCase(c)).append(word.substring(1));
 			}
 
 			else
