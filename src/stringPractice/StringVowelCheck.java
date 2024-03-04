@@ -26,6 +26,7 @@ public class StringVowelCheck {
 
 			int counter = 0;
 
+			//This loop is for counting of chars only
 			for (int j = 0; j < inputString.length(); j++) {
 
 				if (ch == inputString.charAt(j)) {
