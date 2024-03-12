@@ -6,6 +6,8 @@
 
 package SingletonConcepts;
 
+import org.openqa.selenium.WebDriver;
+
 public class Driver {
 	
 	// ThreadLocal used to manage the driver

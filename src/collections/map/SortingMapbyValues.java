@@ -1,7 +1,7 @@
 //This class sorts the map by the values stored in it 
 //It sorts the map on the basis of descending values
 
-package collections;
+package collections.map;
 
 import java.util.ArrayList;
 import java.util.Collections;

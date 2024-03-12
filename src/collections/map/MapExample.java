@@ -9,7 +9,7 @@
 //HashMap allows one null key and multiple null values
 
 
-package collections;
+package collections.map;
 
 import java.util.HashMap;
 import java.util.Map;

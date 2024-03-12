@@ -19,7 +19,7 @@ public class TestSort {
 		al.add(s1);
 		al.add(s2);
 		al.add(s3);
-
+//Alphabetic sort
 		Comparator<Student> cm1 = Comparator.comparing(Student::getName);
 
 		Collections.sort(al, cm1);
