@@ -1,4 +1,4 @@
-//It is same as set it maintains insertion order
+//It is same as set but it maintains insertion order
 
 package collections;
 

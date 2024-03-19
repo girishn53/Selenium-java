@@ -23,26 +23,29 @@ public class ConvertToCamelCase {
 
 		StringBuilder sb = new StringBuilder();
 
-		for (String word : words) {
+		int len = words.length;
 
-			char c = word.charAt(0);
+		for (int i = 0; i < len; i++) {
 
-			if (!Character.isUpperCase(c)) {
+			char ch = words[i].charAt(0);
 
-				sb.append(Character.toLowerCase(c)).append(word.substring(1));
-			}
-
-			else
+			if (i==0 && Character.isUpperCase(ch))
 
 			{
-				sb.append(word.substring(0));
+				sb.append(Character.toLowerCase(ch)).append(words[i].substring(1));
 			}
 
+			else if (i>0&&Character.isLowerCase(ch)) {
+				
+				sb.append(Character.toUpperCase(ch)).append(words[i].substring(1));
+
+			}
+			
+			else
+
+				sb.append(words[i].substring(0));
 		}
 
-		String result = sb.toString().trim();
-
-		System.out.println(result);
+		System.out.println(sb);
 	}
-
 }

@@ -9,11 +9,9 @@ import java.util.Map.Entry;
 public class CountChars {
 
 	public static void main(String[] args) {
-		String S = "Sasshhhhii";
-		
-		ArrayList<Integer> al =new ArrayList<Integer>();
-		
-		
+		String S = "Sasshhhhii is a good";
+
+		ArrayList<Integer> al = new ArrayList<Integer>();
 
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 
@@ -33,32 +31,12 @@ public class CountChars {
 
 		}
 
-		for (Entry <Character,Integer> e : map.entrySet()) {
+		for (Entry<Character, Integer> e : map.entrySet()) {
 
-		System.out.println(e.getKey() + " " + e.getValue());
-			
-		al.add(e.getValue());
-			
-		
+			System.out.println(e.getKey() + " " + e.getValue());
+
 		}
 
-		int m	  =Collections.max(al);
-		
-		System.out.println("The max is "+m);
-		
-		
-
-		for (Entry <Character,Integer> e : map.entrySet()) {
-		
-		if(e.getValue().equals(m))
-		
-		{
-			System.out.println("The repeating is ");
-	
-			
-		}
-		}
-	
 	}
-              
+
 }

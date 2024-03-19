@@ -11,6 +11,8 @@ public class FindCommonElements {
 		int arr1[] = { 22, 43, 23, 98, 21 };
 
 		int arr2[] = { 82, 43, 23, 98, 20 };
+		
+		
 
 		// Printing arrays
 

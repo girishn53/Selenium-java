@@ -24,7 +24,7 @@ public class RemoveDuplicateElements {
 
 		for (int x = 0; x < size; x++) {
 
-			for (int y = x + 1; y < size;) {
+			for (int y = x + 1; y < size;y++) {
 				if (arr[x] == arr[y]) {
 
 					for (int z = y; z < size; z++) {
@@ -35,8 +35,8 @@ public class RemoveDuplicateElements {
 
 				}
 
-				else
-					y++;
+//				else
+//					y++;
 			}
 
 		}

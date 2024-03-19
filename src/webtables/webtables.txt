@@ -4,3 +4,5 @@
 
 //table[@class='dataTable']/tbody/tr --total rows in a table
 
+//table[@class='dataTable']/tbody/tr[1]/td -- total number of cols
+

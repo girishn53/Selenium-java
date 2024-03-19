@@ -1,6 +1,5 @@
 //Hash set doesn't allow duplicate elements
 //It doesn't have any order in which elements are stored
-
 //It doesn't maintain the insertion order
 
 package collections;
@@ -19,7 +18,9 @@ public class HashSetTest {
 
 		hs.add("Rishiita");
 
-
+      //Trying to add duplicate
+		hs.add("Ankita"); //This will not be added
+		
 		// Removing an element
 		hs.remove("Girish");
 		// It is used to clear a set

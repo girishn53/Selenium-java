@@ -1,6 +1,6 @@
 //This program sorts the map using values in desc order
 //It uses linkedHashmap
-//It sorts when key is Integer type
+//It sorts when value is Integer type
 package collections.map;
 
 import java.util.ArrayList;

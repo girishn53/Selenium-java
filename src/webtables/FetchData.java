@@ -1,5 +1,6 @@
 //This program will fetch data from given row and column
 package webtables;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class FetchData {
 
 		driver.manage().window().maximize();
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
 
 		System.out.println(fetchDataFromRowCell(1, 3));
 	

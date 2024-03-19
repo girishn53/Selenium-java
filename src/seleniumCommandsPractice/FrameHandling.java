@@ -1,5 +1,6 @@
 package seleniumCommandsPractice;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +20,7 @@ public class FrameHandling {
 
 		driver.get("http://demo.guru99.com/test/guru99home/");
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 		driver.manage().window().maximize();
 

@@ -17,10 +17,16 @@ public class ArrayListSort {
 		// Max function
 		System.out.println("Max value is " + Collections.max(al));
 
-		// Sorting
+		// Sorting in asc order
 
-		Collections.sort(al);
-
+	//	Collections.sort(al);
+		
+		
+//  sorting in desc order
+		//Collections.sort(al,Collections.reverseOrder());
+		
+		
+		
 		System.out.println("Sorted list is");
 		for (int a : al) {
 			System.out.println(a);

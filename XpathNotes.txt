@@ -1,14 +1,12 @@
 Xpath in depth 
 
-//tagName[@attribute=’value’];
+//tagName[@attribute='value'];
 
 Concatenate in xpath
-//input[@name=’xyz’ and @id=’abc’];
+//input[@name='xyz' and @id='abc'];
 
 Starts-with 
 //input[starts-with(@id='xyz')]
-
-
 
 
 Contains

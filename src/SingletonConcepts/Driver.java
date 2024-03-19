@@ -16,7 +16,7 @@ public class Driver {
     
     private Driver() {}
     
-    public static WebDriver getInstace() {
+    public static WebDriver getInstance() {
     	
     	
     	if(driver.get()==null)

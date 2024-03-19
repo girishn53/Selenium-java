@@ -1,5 +1,5 @@
 //This class shows how to sort a map by keys
-//It sorts the key
+//It sorts the key in asc order
 
 package collections.map;
 

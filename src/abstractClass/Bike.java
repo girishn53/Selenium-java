@@ -19,7 +19,7 @@ public abstract class Bike {
 
 		System.out.println("In bike constructor");
 	}
-
+// it is an abstract method
 	abstract void run();
 
 	public void changeGear() {

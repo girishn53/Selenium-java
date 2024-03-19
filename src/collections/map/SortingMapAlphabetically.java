@@ -30,8 +30,8 @@ public class SortingMapAlphabetically {
 			al.add(e.getValue());
 
 		}
-		
-		//Custom comparator can be used as below
+
+		// Custom comparator can be used as below
 
 //		Comparator<String> cm = new Comparator<String>() {
 //
@@ -42,16 +42,26 @@ public class SortingMapAlphabetically {
 //				return o1.compareTo(o2);
 //			}
 //		};
-		
-		
-		//or
-		
-		//Can be sorted by Collections class
-		
 
-		Collections.sort(al,Collections.reverseOrder()
-				);
-		System.out.println(al);
+		// or
+
+		// Can be sorted by Collections class
+
+		Collections.sort(al);
+
+		for (String s : al) {
+
+			for (Entry<String, String> e : map.entrySet()) {
+
+				if (e.getValue().equals(s)) {
+				sortedMap.put(e.getKey(), s);
+				}
+
+			}
+
+		}
+		
+		System.out.println(sortedMap);
 	}
 
 }

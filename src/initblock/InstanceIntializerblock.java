@@ -1,5 +1,7 @@
 package initblock;
 
+
+
 //The instance initializer block is invoked when instance of the class is created.
 //The instance initializer block is invoked after the parent class constructor is invoked (i.e. after super() constructor call).
 //The instance initializer block comes in the order in which they appear.
@@ -21,7 +23,7 @@ public class InstanceIntializerblock {
 		
 		
 	}
-	
+	//Instance intializer block 
 	{
 		speed = 5;
 		
@@ -36,6 +38,8 @@ public class InstanceIntializerblock {
 		
 		
 		InstanceIntializerblock a = new InstanceIntializerblock();
+		
+		System.out.println(a.speed);
 		
 		InstanceIntializerblock b = new InstanceIntializerblock();
 		

@@ -4,10 +4,13 @@
 
 //Hashmap  linkedhashmap TreeMap
 
-//For traverse we need to convert as map into a set
+//For traverse we need to convert as map into a set by using keyset method
 //Hashmap contains only unique keys
 //HashMap allows one null key and multiple null values
+//Hashmap no order
 
+//Linkedhashmap insertion order is maintained
+//TreeMap maintains asc order on the basis of keys
 
 package collections.map;
 
@@ -34,7 +37,8 @@ public class MapExample {
 		
 		System.out.println(map.size());
 		
-		//KeySet method returns all the keys stored in a map in the set
+		//KeySet method returns all the keys stored in a map in the set 
+		//and we can iterate the map by map.get(key)
 		
 		  Set<String> keys = map.keySet();
 		  
