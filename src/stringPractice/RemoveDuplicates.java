@@ -16,7 +16,7 @@ public class RemoveDuplicates {
 
 		sc.close();
 
-		removeDuplicates(inputString);
+		removeDuplicates(inputString.toLowerCase());
 	}
 
 	public static void removeDuplicates(String inputString) {
@@ -24,13 +24,21 @@ public class RemoveDuplicates {
 		Set<String> s = new LinkedHashSet<String>();
 		inputString = inputString.trim();
 		String arr[] = inputString.split("\\s+");
-
+		StringBuffer bf = new StringBuffer();
 		for (String x : arr) {
-			s.add(x);
+		
+			if(s.add(x)) {
+				
+				bf.append(x).append(" ");
+				
+			}
 
 		}
 
-		System.out.println("removed duplicates" + s.toString().replace("[", "").replace("]", "").replaceAll(",", ""));
+		System.out.println("removed duplicates "+bf.toString());
+		
+		
+		//System.out.println("removed duplicates" + s.toString().replace("[", "").replace("]", "").replaceAll(",", ""));
 
 	}
 
