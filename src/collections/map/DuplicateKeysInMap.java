@@ -1,5 +1,5 @@
 //Duplicate keys are not allowed in Hashmap
-//If key is already present it will be overriden
+//If key is already present it will be overriden by the new value
 
 package collections.map;
 

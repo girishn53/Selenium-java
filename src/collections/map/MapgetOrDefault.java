@@ -1,6 +1,6 @@
 //getOrDefault method in map will check if value is present against the key
-//will return that value
-//else it will return the value present in function
+//it will return that value which is already in map 
+//else it will return the value present in function param
 
 package collections.map;
 
