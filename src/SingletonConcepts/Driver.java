@@ -8,24 +8,24 @@ package SingletonConcepts;
 
 import org.openqa.selenium.WebDriver;
 
-public class Driver {
+//public class Driver {
 	
 	// ThreadLocal used to manage the driver
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+//    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     //private constructor
     
-    private Driver() {}
-    
-    public static WebDriver getInstance() {
+//    private Driver() {}
+//    
+//    public static WebDriver getInstance() {
     	
-    	
-    	if(driver.get()==null)
-    	{
-    		WebdriverManager.chromeDriver().setup();
-    		driver.set(new ChromeDriver())
-    	}
-    	return driver.get();
-    
-    }
+//    	
+//    	if(driver.get()==null)
+//    	{
+//    		WebdriverManager.chromeDriver().setup();
+//    		driver.set(new ChromeDriver())
+//    	}
+//    	return driver.get();
+//    
+//    }
 
-}
+//}
