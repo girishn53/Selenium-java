@@ -1,4 +1,4 @@
-//This program sorts the map using values in desc order
+//This program sorts the map values in desc order
 //It uses linkedHashmap
 //It sorts when value is Integer type
 package collections.map;

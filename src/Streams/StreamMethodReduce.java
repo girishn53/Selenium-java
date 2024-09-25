@@ -21,15 +21,7 @@ public class StreamMethodReduce {
         		
 		
 		System.out.println(reduced.get());
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 
 }

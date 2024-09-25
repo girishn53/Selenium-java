@@ -1,3 +1,4 @@
+
 //Map stores the data in key-value form 
 
 //Map interface has 3 classes 
@@ -33,6 +34,9 @@ public class MapExample {
 		
 		map.put("Location", "India");
 		
+		map.put(null, "tikoo");	
+		
+		
 		System.out.println(map);
 		
 		System.out.println(map.size());
@@ -41,6 +45,8 @@ public class MapExample {
 		//and we can iterate the map by map.get(key)
 		
 		  Set<String> keys = map.keySet();
+		  
+		  System.out.println("The keys are "+keys);
 		  
 		  for(String key:keys)
 		  {

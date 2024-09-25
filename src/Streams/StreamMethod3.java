@@ -8,14 +8,15 @@ public class StreamMethod3 {
 
 	public static void main(String[] args) {
 
-		List<Integer> l = Arrays.asList(10, 67, 54, 87, 34);
+		List<Integer> l = Arrays.asList(10, 67, 54, 87, 34,8);
 
-		Optional<Integer> min = l.stream().min((val1, val2) -> {
+		Optional<Integer> K = l.stream().min((val1, val2) -> {
 			return val1.compareTo(val2);
 
 		});
+		
 
-		System.out.println(min.get());
+		System.out.println(K.get());
 
 	}
 

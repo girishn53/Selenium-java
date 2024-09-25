@@ -14,7 +14,7 @@ public class StreamMethods {
 
 		List<String> l = Arrays.asList("Car", "Jeep", "Car", "cycle");
 
-		//
+		
 		List<String> uniqueElements = l.stream().distinct().collect(Collectors.toList());
 
 		System.out.println(uniqueElements);

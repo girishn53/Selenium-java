@@ -1,7 +1,7 @@
 /**This class shows how to print 
  * a key and corresponding values using Entry*/
 
-//We can also iterate the map using entryset method
+/*We can also iterate the map using entryset method*/
 
 
 package collections.map;
@@ -27,6 +27,7 @@ public class MapKeyPrint {
 			System.out.println(m1.getKey() + " " + m1.getValue());
 
 		}
+		
 
 	}
 
