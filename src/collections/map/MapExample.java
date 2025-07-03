@@ -1,4 +1,3 @@
-
 //Map stores the data in key-value form 
 
 //Map interface has 3 classes 
@@ -29,12 +28,13 @@ public class MapExample {
 
 		map.put("lastName", "Kakwani");
 		
-		
 		map.put("Subject", "Selenium");
 		
 		map.put("Location", "India");
-		
+		//one null key is allowed
 		map.put(null, "tikoo");	
+		
+		//map.put(null, "tikoo1");	
 		
 		
 		System.out.println(map);

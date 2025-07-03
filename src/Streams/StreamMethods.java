@@ -1,6 +1,7 @@
 //distinct is used to find unique elements it is a non-terminal method
+//Non terminal means could not be applied in the last
 //Limit is also a non terminal method
-//Count is used to count the number of elements
+//Count is used to count the number of elements, it is a terminal method
 
 package Streams;
 

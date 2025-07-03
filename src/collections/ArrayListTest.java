@@ -1,4 +1,3 @@
-
 //Array list is a class which implements list interface
 
 //It allows duplicate elements and it maintains insertion order
@@ -17,6 +16,7 @@ public class ArrayListTest {
 
 		al.add("Girish");
 		al.add("Ankita");
+		al.add("Goldy");
 		al.add("Goldy");
 
 		Iterator<String> itr = al.iterator();

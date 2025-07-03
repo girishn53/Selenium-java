@@ -19,7 +19,7 @@ public class StringImmutation {
 		
 		s.concat("Kakwani");// It will create a new object in the pool
 		
-		System.out.println(s); // Girish will be printed as 's' variable is poiting to Girish
+		System.out.println(s); // Girish will be printed as 's' variable is pointing to Girish
 		
 		
 		

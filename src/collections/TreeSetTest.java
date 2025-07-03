@@ -1,4 +1,4 @@
-//It stores data in ascending order 
+//It stores data in ascending order.
 //Rest is same as set
 
 package collections;
@@ -20,7 +20,7 @@ public class TreeSetTest {
 		Iterator<Integer> itr = ts.iterator();
 
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+		System.out.println(itr.next());
 
 		}
 

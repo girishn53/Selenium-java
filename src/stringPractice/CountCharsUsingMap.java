@@ -1,17 +1,15 @@
 package stringPractice;
-
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
-public class CountChars {
+public class CountCharsUsingMap {
 
 	public static void main(String[] args) {
 		String S = "Sasshhhhii is a good";
 
-		ArrayList<Integer> al = new ArrayList<Integer>();
+
 
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 

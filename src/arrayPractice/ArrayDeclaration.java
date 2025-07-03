@@ -12,8 +12,6 @@ public class ArrayDeclaration {
 		int a[]={23,54,93};
 	
 		
-		
-		
 		//Declaring by size
 		
 		int arr[]=new int [5];

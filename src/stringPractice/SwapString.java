@@ -1,3 +1,6 @@
+//input Hi Girish
+
+//Output Girish Hi
 package stringPractice;
 
 import java.util.Scanner;
@@ -8,6 +11,7 @@ public class SwapString {
 		String first = "";
 
 		String second = "";
+		
 		String inputString = "";
 
 		System.out.println("Please enter first and second String");

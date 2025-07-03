@@ -9,9 +9,9 @@ import java.util.List;
 public class MapExample1 {
 	public static void main(String[] args) {
 
-		List<String> l = Arrays.asList("girsh", "kunal", "ankita", "test");
+		List<String> l = Arrays.asList("girish", "kunal", "ankita", "test");
 		
-		   l.stream().map(s->s.toUpperCase()).forEach(System.out::println);;
+		   l.stream().map(s->s.toUpperCase()).forEach(System.out::println);
 		
 		
 		

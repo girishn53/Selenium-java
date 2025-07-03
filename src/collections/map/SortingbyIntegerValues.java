@@ -19,7 +19,7 @@ public class SortingbyIntegerValues {
 
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 
-		LinkedHashMap<String, Integer> map1 = new LinkedHashMap<String, Integer>();
+		LinkedHashMap<String, Integer> linkedmap = new LinkedHashMap<String, Integer>();
 
 		map.put("Neha", 90);
 		map.put("Lilly", 84);
@@ -41,13 +41,13 @@ public class SortingbyIntegerValues {
 
 			for (Entry<String, Integer> e : map.entrySet()) {
 				if (e.getValue().equals(i)) {
-					map1.put(e.getKey(), i);
+					linkedmap.put(e.getKey(), i);
 				}
 			}
 
 		}
 
-		System.out.println(map1);
+		System.out.println(linkedmap);
 	}
 
 }

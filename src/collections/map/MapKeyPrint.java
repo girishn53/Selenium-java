@@ -8,6 +8,7 @@ package collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class MapKeyPrint {
 
@@ -23,7 +24,7 @@ public class MapKeyPrint {
 		
 	
 
-		for (Map.Entry m1 : m.entrySet()) {
+		for (Entry <Integer, String> m1 : m.entrySet()) {
 			System.out.println(m1.getKey() + " " + m1.getValue());
 
 		}

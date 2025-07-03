@@ -3,6 +3,7 @@
 
 package collections.map;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -20,7 +21,8 @@ public class MapCompareByKey {
 		
 		m.entrySet()
 		.stream()
-		.sorted(Map.Entry.comparingByKey())
+		.sorted(Map.Entry.comparingByKey(
+				))
 	 .forEach(System.out::println);  
 	
 	

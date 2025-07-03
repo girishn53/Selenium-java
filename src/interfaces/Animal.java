@@ -1,4 +1,7 @@
-//An interface in Java is a blueprint of a class. It has static constants and abstract methods
+//An interface in Java is a blueprint of a class. 
+
+//It has only method declarations
+//It has static constants and abstract methods
 //Interface provides discipline to the system
 
 //It is 100% oops

@@ -1,4 +1,4 @@
-//TreeMap maintains ascending order
+//TreeMap maintains data in  ascending order
 //It maintains on the basis of keys
 
 package collections.map;

@@ -9,8 +9,8 @@ public class IndexOfMethod {
 
 		//System.out.println(s1.indexOf("is"));
 		
-	//	System.out.println(s1.indexOf("index"));
-//		
+		//System.out.println(s1.indexOf("index"));
+	
 //		//returns index of is after 4th place
 	System.out.println(s1.indexOf("is",4));
 		

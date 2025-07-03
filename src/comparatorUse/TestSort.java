@@ -20,26 +20,26 @@ public class TestSort {
 		al.add(s2);
 		al.add(s3);
 //Alphabetic sort
-		Comparator<Student> cm1 = Comparator.comparing(Student::getName);
-
-		Collections.sort(al, cm1);
-
-		System.out.println("Sorting by Name");
-
-		for (Student s : al) {
-			System.out.println(s.getName());
-		}
-
-//		Comparator<Student> cm2 = Comparator.comparing(Student::getRollno);
+//		Comparator<Student> cm1 = Comparator.comparing(Student::getName);
 //
-//		Collections.sort(al, cm2);
+//		Collections.sort(al, cm1);
 //
-//		System.out.println("Sorting by Roll number");
+//		System.out.println("Sorting by Name");
 //
 //		for (Student s : al) {
-//			System.out.println(s.getRollno() + " " + s.getName() + " " + s.getAge());
+//			System.out.println(s.getName());
 //		}
-//
+
+		Comparator<Student> cm2 = Comparator.comparing(Student::getRollno);
+
+		Collections.sort(al, cm2);
+
+		System.out.println("Sorting by Roll number");
+
+		for (Student s : al) {
+			System.out.println(s.getRollno() + " " + s.getName() + " " + s.getAge());
+		}
+
 	}
 
 	}

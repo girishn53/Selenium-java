@@ -17,12 +17,12 @@ public class StringBufferTest {
 		System.out.println(b);
 
 		// Reverse method reverses the String
-		//System.out.println(b.reverse());
+	//	System.out.println(b.reverse());
 		
 		
 		//delete method
 		
-		System.out.println(b.delete(1,3));
+		System.out.println(b.delete(1,3)); //3 is excluded
 		
 		
 

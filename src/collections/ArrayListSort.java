@@ -19,7 +19,7 @@ public class ArrayListSort {
 
 		// Sorting in asc order
 
-	//	Collections.sort(al);
+		Collections.sort(al);
 		
 		
 //  sorting in desc order

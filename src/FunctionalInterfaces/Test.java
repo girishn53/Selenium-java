@@ -1,4 +1,5 @@
-//Functional interface has only one abstract method and could be have default and static methods
+//Functional interface has only one abstract method 
+//and could have default and static methods
 
 package FunctionalInterfaces;
 
@@ -15,9 +16,13 @@ class Test {
 
 		// We can write lambda expressions only with functional interface
 
-		// The below code is shorter form instead of creating a class which implements
+		// The below code is shorter form instead of creating 
+		//a class which implements
 		// interface we can
 		// use below code
+		
+		
+		
 
 		Cab cab = () -> System.out.println("Cab is booked");// Lambdaa expression
 

@@ -21,13 +21,13 @@ public class RemoveDuplicates {
 
 	public static void removeDuplicates(String inputString) {
 
-		Set<String> s = new LinkedHashSet<String>();
+		Set<String> set = new LinkedHashSet<String>();
 		inputString = inputString.trim();
 		String arr[] = inputString.split("\\s+");
 		StringBuffer bf = new StringBuffer();
 		for (String x : arr) {
 		
-			if(s.add(x)) {
+			if(set.add(x)) {
 				
 				bf.append(x).append(" ");
 				

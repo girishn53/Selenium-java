@@ -17,15 +17,6 @@ public class FilterDemo2 {
 		
 		System.out.println(Y);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }

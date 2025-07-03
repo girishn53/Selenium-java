@@ -1,4 +1,3 @@
-
 //Linked list uses doubly linkedlist 
 //It is faster than array list
 //It is used for manipulation of data

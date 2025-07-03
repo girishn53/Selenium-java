@@ -15,7 +15,6 @@ public class HashSetTest {
 
 		hs.add("Girish");
 		hs.add("Ankita");
-
 		hs.add("Rishiita");
 
       //Trying to add duplicate
